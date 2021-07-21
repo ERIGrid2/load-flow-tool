@@ -1,0 +1,8 @@
+Bus	Amplitude(pu)	Angle(rad)	NominalVoltage(kV)
+1	1.05	        0	        150
+2	1	        0	        150
+3	1	        0	        150
+4	1	        0	        150
+5	1.04	        0	        150
+6	0.133	        0	        20
+

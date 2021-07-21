@@ -1,0 +1,2 @@
+Transformer	Bus_1	Bus_2	Transformation_ratio            Windings_Resistance_(Ohm)	Leakage_Reactance_(Ohm)	Nominal_Power_(VA)
+1               3       6       7.5                             0.052822                        1.42196                 500000000

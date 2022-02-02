@@ -1,4 +1,5 @@
-# NA3.2-Load-Flow-tool
+# Load-Flow-tool
+
 This is an open source load flow tool developed by CRES (Evangelos Rikos) in Python within the framework of ERIGrid 2.0.
 
 In order for the user to easily use the specific tool some guidelines are provided below:
@@ -11,3 +12,6 @@ In order for the user to easily use the specific tool some guidelines are provid
 
 -There are some additional parameters in the input files that are not used in the current version such as the location of the buses in x-y coordinates. The scope of these coordinates is to be used in graphical illustration of the system in future versions of the tool.   
 
+### Funding acknowledment
+
+<img alt="European Flag" src="https://erigrid2.eu/wp-content/uploads/2020/03/europa_flag_low.jpg" align="left" style="margin-right: 10px"/> The development of Load-Flow-tool has been supported by the [ERIGrid 2.0](https://erigrid2.eu) project of the H2020 Programme under [Grant Agreement No. 870620](https://cordis.europa.eu/project/id/870620)

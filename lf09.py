@@ -96,11 +96,11 @@ for counter in range(5):
                 B=B+V[j]*Y[i][j]*sin(d[j]-d[i]+g[i][j])
             Q_gen[i]=-V[i]*B-Q_spec[i]
             
-            if Q_gen[i]>=Q_lim[i][0]:
-                Q_spec[i]=Q_spec[i]+Q_lim[i][0]
+            if Q_gen[i]>=Q_lim[i][0]/Sbase:
+                Q_spec[i]=Q_spec[i]+Q_lim[i][0]/Sbase
                 bus_type[i]=12
-            elif Q_gen[i]<=Q_lim[i][1]:
-                Q_spec[i]=Q_spec[i]+Q_lim[i][1]
+            elif Q_gen[i]<=Q_lim[i][1]/Sbase:
+                Q_spec[i]=Q_spec[i]+Q_lim[i][1]/Sbase
                 bus_type[i]=12
                 
 #---------------------------------------------------------------------------------
